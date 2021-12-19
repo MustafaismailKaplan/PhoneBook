@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5PCq2WT2g0CSjqp87Rnnlm0Gi6COZWJ5l6bIFMSTfw/vLaURZuKzPXVDnEez2QiFScEoaUlCOMmtdyDqb7Y/lw==",
+  "dgSpecHash": "5K1H/0mUnbrCdo+HRjDMIIogAnQ61vdo4uCdLI0A4StQPsFZXBfv9DkceBhgscemG/bZ+ZUrYGTKXn0mOhVxKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tsoft Tekrom\\Desktop\\RiseCase\\PhoneBook\\Reporting.Api\\Reporting.Api.csproj",
+  "projectFilePath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api\\Reporting.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tsoft Tekrom\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Tsoft Tekrom\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

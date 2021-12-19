@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Reporting.Api.Commands;
 using Reporting.Api.Commands.Handlers;
 using Reporting.Api.Data;
@@ -52,18 +53,24 @@ namespace Reporting.Api
             });
             services.AddControllers();
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PhoneReport.Api", Version = "v1" });
+            });
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             return services.BuildContainer();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ReportDbContext dbContext)
         {
-            //dbContext.Database.Migrate();
+            dbContext.Database.Migrate();
 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PhoneReport.Api v1"));
             }
 
             app.UseRabbitMq()
