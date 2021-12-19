@@ -22,7 +22,7 @@ docker-compose up -d
 You can **launch microservices** as below urls:
 * **PhoneBook API -> http://host.docker.internal:5001/swagger/index.html**
 * **Reporting API -> http://host.docker.internal:5002/swagger/index.html**
-### Example of Requests
+### Example of Self Running Requests
 #### PhoneBook.Api
 - Creating a contact in the phone book
 ```sh 
