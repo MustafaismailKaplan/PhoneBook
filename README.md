@@ -10,11 +10,18 @@ Postgresql is used as database. Migration configurations were made for Person Se
 ### Message Broker
 RabbitMq was used as the message broker. RabbitMq Default Port : Assumed to run as 5672. RabbitMq server address can be set in appsettings.json file.
 
-## How to Use 
+## How to Use  
 ### Run Project
+You will need the following tools:
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
+* [.Net Core 5 or later](https://dotnet.microsoft.com/download/dotnet-core/5)
+* [Docker Desktop](https://www.docker.com/products/docker-desktop)
 ```sh
 docker-compose up -d
 ``` 
+You can **launch microservices** as below urls:
+* **PhoneBook API -> http://host.docker.internal:5001/swagger/index.html**
+* **Reporting API -> http://host.docker.internal:5002/swagger/index.html**
 ### Example of Requests
 #### PhoneBook.Api
 - Creating a contact in the phone book
