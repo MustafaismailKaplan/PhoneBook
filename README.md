@@ -51,7 +51,7 @@ curl -X GET "https://localhost:5001/api/reports/personId/3fa85f64-5717-4562-b3fc
  curl -X GET "https://localhost:5001/api/reports/2c963f66afa6-4562-5717-b3fc-3fa85f64" -H  "accept: */*"
  ```
 ### Testing Project
-#### PhoneBook.Api
+#### PhoneBook Api
 ```
 dotnet test PhoneBook.Api
 ```
