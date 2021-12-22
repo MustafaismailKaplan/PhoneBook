@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api.Test\\Reporting.Api.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api.Test\\Reporting.Api.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api.Test\\Reporting.Api.Test.csproj",
+        "projectName": "Reporting.Api.Test",
+        "projectPath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api.Test\\Reporting.Api.Test.csproj",
+        "packagesPath": "C:\\Users\\Tsoft Tekrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tsoft Tekrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api\\Reporting.Api.csproj": {
+                "projectPath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api\\Reporting.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Respawn": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api\\Reporting.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api\\Reporting.Api.csproj",
+        "projectName": "Reporting.Api",
+        "projectPath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api\\Reporting.Api.csproj",
+        "packagesPath": "C:\\Users\\Tsoft Tekrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Reporting.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tsoft Tekrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\Tsoft Tekrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tsoft Tekrom\\Documents\\GitHub\\PhoneBook\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tsoft Tekrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.DependencyInjection.Autofac": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.Attributes": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.MessageContext": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.MessageContext.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.Polly": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.QueueSuffix": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.RetryLater": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.5.0-alpha0003, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -8189,6 +8189,7 @@
     "net5.0": [
       "MediatR >= 9.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
+      "Microsoft.EntityFrameworkCore >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.13",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13",
@@ -8252,6 +8253,10 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.13, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

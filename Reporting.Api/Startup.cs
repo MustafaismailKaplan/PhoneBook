@@ -73,9 +73,7 @@ namespace Reporting.Api
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PhoneReport.Api v1"));
             }
 
-            app.UseRabbitMq()
-              .SubscribeCommand<CreatePersonReportsByLocationCommand>()
-              .SubscribeEvent<ReportCreated>();
+           
 
             DbInitialializer.Initialize(app.ApplicationServices);
 

@@ -13,20 +13,17 @@ namespace Reporting.Api.Events.Handlers
     public class ReportCreatedHandler : IEventHandler<ReportCreated>
     {
         private readonly ReportDbContext _dbContext;
-        private readonly IBusPublisher _busPublisher;
         private readonly ILogger<ReportCreatedHandler> _logger;
         private readonly IPersonHttpService _personHttpService;
         private readonly ILocationHttpService _locationHttpService;
 
         public ReportCreatedHandler(ReportDbContext dbContext,
-                            IBusPublisher busPublisher,
                             ILogger<ReportCreatedHandler> logger,
                             IPersonHttpService personHttpService,
                             ILocationHttpService locationHttpService)
         {
             _logger = logger;
             _dbContext = dbContext;
-            _busPublisher = busPublisher;
             _personHttpService = personHttpService;
             _locationHttpService = locationHttpService;
         }
