@@ -21,3 +21,15 @@ C:\Users\Tsoft Tekrom\Desktop\RiseCase\PhoneBook\Shared\obj\Debug\net5.0\Shared.
 C:\Users\Tsoft Tekrom\Desktop\RiseCase\PhoneBook\Shared\obj\Debug\net5.0\Shared.dll
 C:\Users\Tsoft Tekrom\Desktop\RiseCase\PhoneBook\Shared\obj\Debug\net5.0\ref\Shared.dll
 C:\Users\Tsoft Tekrom\Desktop\RiseCase\PhoneBook\Shared\obj\Debug\net5.0\Shared.pdb
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\bin\Debug\net5.0\Shared.deps.json
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\bin\Debug\net5.0\Shared.dll
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\bin\Debug\net5.0\ref\Shared.dll
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\bin\Debug\net5.0\Shared.pdb
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\obj\Debug\net5.0\Shared.csprojAssemblyReference.cache
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\obj\Debug\net5.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\obj\Debug\net5.0\Shared.AssemblyInfoInputs.cache
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\obj\Debug\net5.0\Shared.AssemblyInfo.cs
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\obj\Debug\net5.0\Shared.csproj.CoreCompileInputs.cache
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\obj\Debug\net5.0\Shared.dll
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\obj\Debug\net5.0\ref\Shared.dll
+C:\Users\Tsoft Tekrom\Documents\GitHub\PhoneBook\Shared\obj\Debug\net5.0\Shared.pdb

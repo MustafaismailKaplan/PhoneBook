@@ -16,14 +16,11 @@ namespace PhoneBook.Api.Commands.Handlers
     {
         private readonly PhoneBookContext _dbContext;
         private readonly ILogger<CreatePersonCommandHandler> _logger;
-        private readonly IBusPublisher _busPublisher;
 
         public CreatePersonCommandHandler(PhoneBookContext dbContext,
-                                          ILogger<CreatePersonCommandHandler> logger,
-                                          IBusPublisher busPublisher)
+                                          ILogger<CreatePersonCommandHandler> logger)
         {
             _logger = logger;
-            _busPublisher = busPublisher;
             _dbContext = dbContext;
         }
 
@@ -41,8 +38,7 @@ namespace PhoneBook.Api.Commands.Handlers
 
             _logger.LogInformation($"[Local Transaction] : Person created.");
 
-            await _busPublisher.PublishAsync(new PersonCreated(command.Id, command.FirstName, command.LastName,
-                 command.Company), null);
+            
         }
     }
 }

@@ -12,23 +12,20 @@ using System.Threading.Tasks;
 
 
 namespace PhoneBook.Api.Commands.Handlers
-{
-    public class GetPersonContactHandler : AsyncRequestHandler<GetPersonContactCommand>
+{ 
+    public class GetPersonContactHandler : IRequestHandler<GetPersonContactCommand, PersonGet>
     {
         private readonly PhoneBookContext _dbContext;
         private readonly ILogger<GetPersonContactCommand> _logger;
-        private readonly IBusPublisher _busPublisher;
 
         public GetPersonContactHandler(PhoneBookContext dbContext,
-                                          ILogger<GetPersonContactCommand> logger,
-                                          IBusPublisher busPublisher)
+                                          ILogger<GetPersonContactCommand> logger)
         {
             _logger = logger;
-            _busPublisher = busPublisher;
             _dbContext = dbContext;
         }
 
-        protected override async Task<PersonGet> Handle(GetPersonContactCommand command, CancellationToken cancellationToken)
+        public async Task<PersonGet> Handle(GetPersonContactCommand command, CancellationToken cancellationToken)
         {
             PersonGet personGet = new PersonGet();
             var response = await _dbContext.Persons.FirstOrDefaultAsync(s => s.Id == command.Id);

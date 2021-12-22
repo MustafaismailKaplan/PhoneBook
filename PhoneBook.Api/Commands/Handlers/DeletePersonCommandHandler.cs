@@ -16,14 +16,11 @@ namespace PhoneBook.Api.Commands.Handlers
     {
         private readonly PhoneBookContext _dbContext;
         private readonly ILogger<CreatePersonCommandHandler> _logger;
-        private readonly IBusPublisher _busPublisher;
 
         public DeletePersonCommandHandler(PhoneBookContext dbContext,
-                                          ILogger<CreatePersonCommandHandler> logger,
-                                          IBusPublisher busPublisher)
+                                          ILogger<CreatePersonCommandHandler> logger)
         {
             _logger = logger;
-            _busPublisher = busPublisher;
             _dbContext = dbContext;
         }
 
@@ -47,8 +44,6 @@ namespace PhoneBook.Api.Commands.Handlers
 
             _logger.LogInformation($"[Local Transaction] : Person deleted.");
 
-            await _busPublisher.PublishAsync(new PersonDeleted(person.Id, person.FirstName, person.LastName,
-                 person.Company), null);
 
         }
     }
